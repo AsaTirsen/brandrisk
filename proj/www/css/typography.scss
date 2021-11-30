@@ -1,0 +1,70 @@
+body {
+    font-family: $font-body;
+}
+
+.date {
+  font-weight: bold;
+  font-size: 0.7rem;
+}
+
+.prediction {
+  font-size: 0.6rem;
+}
+
+.fire {
+  font-size: 0.9rem;
+}
+
+.risk {
+  font-weight: bold;
+  font-size: 0.7rem;
+}
+
+.desc {
+  font-size: 0.7rem;
+}
+
+a.fire {
+  font-size: 0.9rem;
+  text-decoration: none;
+  color: #333333;
+  width: auto;
+}
+//
+//
+//h1,
+//h2,
+//h4 {
+//    font-family: $font-header;
+//}
+//
+//html { font-size: 100% }
+//p { font-size: 0.7rem }
+//h1 { font-size: 1.0rem }
+//h2 { font-size: 1.0rem }
+//h4 { font-size: 0.9rem }
+//
+//@media (min-width: 64em) {
+//  html {
+//    font-size: 112.5%;
+//  }
+//}
+//
+//h2 {
+//    margin-bottom: 0.6rem;
+//}
+//
+//h4 {
+//    //margin-bottom: 0.2rem;
+//    //margin-top: 1.8rem;
+//   // line-height: 1.4;
+//}
+//
+//h4:first-of-type {
+//    margin-top: 0.6rem;
+//}
+//
+//p {
+//    margin-top: 0.2rem;
+//    line-height: 1.4;
+//}

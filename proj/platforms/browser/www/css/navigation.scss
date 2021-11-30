@@ -1,0 +1,78 @@
+/* Style the navigation menu */
+.top-nav {
+    overflow: hidden;
+    background-color: #e8514f;
+    position: relative;
+    height: 2em;
+    padding-bottom: 3%;
+    padding-top: 5%;
+}
+
+/* Style the hamburger menu */
+.top-nav a.icon {
+    background: #e8514f;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 40px;
+    float: left;
+}
+
+/* Style the active link (or home/logo) */
+.active {
+    background-color:#e8514f;
+    color: white;
+}
+
+#heading {
+    position: absolute;
+    right: 40%;
+    top: 50%;
+    text-align: center;
+    width: 14em;
+    color: white;
+}
+
+
+@media only screen and (max-width: 668px) {
+    #heading {
+        position: absolute;
+        right: 20%;
+        top: 50%;
+        text-align: center;
+        width: 14em;
+        color: white;
+    }
+}
+
+.star {
+    position: absolute;
+    right:2%;
+    top: 40%;
+}
+
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    position: fixed; /* Stay in place */
+    z-index: 2000; /* Stay on top */
+    top: 0;
+    left: 0;
+    background-color: white; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+.container {
+    transition: margin-left .5s;
+}
+
+ul, li {
+    list-style-type: none;
+    padding-left: 1em;
+    margin-bottom: 1em;
+}
+
+.burger{
+    margin-left: 1em;
+}
